@@ -17,5 +17,10 @@ public class EmployeeController {
 
 		return "Welcome to Employee Management System";
 	}
+	@RequestMapping("/hello")
+	public String hello() {
+
+		return "Hello from Employee Management System";
+	}
 
 }
