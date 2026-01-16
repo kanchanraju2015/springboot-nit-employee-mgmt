@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
 
 	@RequestMapping("/well")
-	public String well() {
-
+	public String well() 
+	{
+		return "this is well endpoint";
+	}
 	
 	@RequestMapping("/welcome")
 	public String welcome() {
